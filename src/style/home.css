@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+GB+S:wght@100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+GB+S:wght@100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+GB+S:wght@100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  background-color: #f6faf5;
+  overflow-x: none;
+}
+.form,
+.loginsection,
+.registersection {
+  text-align: center;
+  border: 0.01rem solid rgb(0, 176, 0);
+  padding: 1rem;
+  box-shadow: 0 0 1px #2c6b34, 0 0 1px #2c6b34, 0 0 10px #2c6b34;
+  border-radius: 0.5rem;
+  width: 25rem;
+  height: 34rem;
+  position: absolute;
+  left: 55rem;
+  top: 8rem;
+}
+.form .header1,
+.loginsection .loginheader,
+.registersection .registerheader {
+  text-align: left;
+  color: rgb(87, 87, 87);
+  font-size: large;
+  font-weight: 700;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  margin-top: 0.5rem;
+}
+.form .header2 {
+  color: rgb(150, 150, 150);
+  font-size: 0.8rem;
+  text-align: left;
+  font-weight: 500;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  margin-top: -0.7rem;
+}
+.form .header3 {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+.form .button,
+.checkstatus .schedulebutton,
+.loginsection button,
+.registersection button {
+  width: 22rem;
+  height: 2.8rem;
+  margin: 0.5rem 0;
+  background-color: #3ab34a;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: large;
+  font-weight: 600;
+  color: #f6faf5;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+}
+.form .button:hover,
+.checkstatus .schedulebutton:hover,
+.loginsection button:hover,
+.registersection button:hover {
+  background-color: #3fd853;
+}
+.form .footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.form .footer .link,
+.scheduleform .link,
+.loginsection .link,
+.registersection .link {
+  text-decoration: none;
+  color: #3ab34a;
+  font-size: large;
+  font-weight: 600;
+  margin-top: 1rem;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+}
+.form .footer .message {
+  color: rgb(150, 150, 150);
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  margin-top: 1.3rem;
+}
+.form .footer .message span {
+  color: #3ab34a;
+}
+.form .chooseform {
+  display: flex;
+  justify-content: space-between;
+}
+.form .chooseform .active {
+  color: white;
+  background-color: #3ab34a;
+  padding: 1rem;
+  margin-top: -1rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  border-top-left-radius: 0.4rem;
+  width: 11rem;
+  font-size: large;
+  font-weight: 500;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  overflow: hidden;
+}
+.form .chooseform .inactive {
+  color: #3ab34a;
+  background-color: #f6faf5;
+  padding: 1rem;
+  margin-top: -1rem;
+  border-top-right-radius: 0.4rem;
+  width: 12rem;
+  font-size: large;
+  font-weight: 500;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  border-bottom: 0.1rem solid #3ab34a;
+  margin-right: -1rem;
+  margin-left: -1rem;
+  overflow: hidden;
+  border-top-left-radius: 0.4rem;
+}
+.aifeature .feature {
+  font-size: larger;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+.aifeature .feature span {
+  background: rgb(67, 140, 14);
+  background: linear-gradient(
+    90deg,
+    rgba(67, 140, 14, 1) 0%,
+    rgba(74, 231, 49, 1) 53%
+  );
+  padding: 0.4rem;
+  border-radius: 0.5rem 1rem;
+  color: #f6faf5;
+}
